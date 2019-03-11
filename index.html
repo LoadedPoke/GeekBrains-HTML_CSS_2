@@ -3,89 +3,115 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML3 &amp; CSS3. Lesson 1</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
  
-  <header>
-    <div>
-      <h1>Product name</h1>
-      <nav>
-        <ul>
-          <li>Put on this page information about your product</li>
-          <li>A detailed description of your product</li>
-          <li>Tell us about the advantages and merits</li>
-          <li>Associate the page with the payment system</li>
-        </ul>
-      </nav>
+  <header class="main-header">
+    <div class="main-header-wrapper">
+      <h1 class="main-header-title">Product name</h1>
+      <ul class="main-header-list">
+        <li>Put on this page information about your product</li>
+        <li>A detailed description of your product</li>
+        <li>Tell us about the advantages and merits</li>
+        <li>Associate the page with the payment system</li>
+      </ul>
     </div>
-    <img src="" alt="Company logo" height="214px" width="469px">
+    <img class="main-header-product-photo" src="#" alt="Product image" height="214" width="469">
   </header>
   
   <main>
-    <article id="about">
-      <div>
-        <h2>About your product</h2>
+    <article class="about">
+      <div class="about-wrapper">
+        <h2 class="about-title">About your product</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
         <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
       </div>
-      <img src="" alt="Product image" height="245px" width="430px">
+      <img class="about-video" src="#" alt="Product image" height="245" width="430">
     </article>
     
-    <article id="details">
-     <h2>Dignity and pluses of product</h2>
-      <div>
-        <div>
-        Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.
-        </div>
-        <div>
-        Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.
-        </div>
-        <div>
-        Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.
-        </div>
+    <section class="details">
+     <h2 class="details-title">Dignity and pluses of product</h2>
+      <div class="details-column-left">
+        <details class="details-info">
+          <summary>
+            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.
+          </summary>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa libero atque quibusdam asperiores excepturi enim at voluptatem velit ipsam veritatis consequuntur, nam voluptas, quod dolorem molestias voluptates omnis tempore voluptatibus. Beatae sit reiciendis harum numquam libero aspernatur, expedita veniam tempore. Rem ducimus maxime possimus itaque quam error voluptas, facere! Officia labore dolorum voluptates voluptatibus hic quia animi, fugiat consectetur quo.</p>
+        </details>
+        <details class="details-info">
+          <summary>
+            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.
+          </summary>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa libero atque quibusdam asperiores excepturi enim at voluptatem velit ipsam veritatis consequuntur, nam voluptas, quod dolorem molestias voluptates omnis tempore voluptatibus. Beatae sit reiciendis harum numquam libero aspernatur, expedita veniam tempore. Rem ducimus maxime possimus itaque quam error voluptas, facere! Officia labore dolorum voluptates voluptatibus hic quia animi, fugiat consectetur quo.</p>
+        </details>
+        <details class="details-info">
+          <summary>
+            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.
+          </summary>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa libero atque quibusdam asperiores excepturi enim at voluptatem velit ipsam veritatis consequuntur, nam voluptas, quod dolorem molestias voluptates omnis tempore voluptatibus. Beatae sit reiciendis harum numquam libero aspernatur, expedita veniam tempore. Rem ducimus maxime possimus itaque quam error voluptas, facere! Officia labore dolorum voluptates voluptatibus hic quia animi, fugiat consectetur quo.</p>
+        </details>
       </div>
-      <div>
-        <div>
-        Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.
-        </div>
-        <div>
-        Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.
-        </div>
-        <div>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.
-        </div>
+      <div class="details-column-write">
+        <details class="details-info">
+          <summary>
+            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.
+          </summary>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa libero atque quibusdam asperiores excepturi enim at voluptatem velit ipsam veritatis consequuntur, nam voluptas, quod dolorem molestias voluptates omnis tempore voluptatibus. Beatae sit reiciendis harum numquam libero aspernatur, expedita veniam tempore. Rem ducimus maxime possimus itaque quam error voluptas, facere! Officia labore dolorum voluptates voluptatibus hic quia animi, fugiat consectetur quo.</p>
+        </details>
+        <details class="details-info">
+          <summary>
+            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.
+          </summary>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa libero atque quibusdam asperiores excepturi enim at voluptatem velit ipsam veritatis consequuntur, nam voluptas, quod dolorem molestias voluptates omnis tempore voluptatibus. Beatae sit reiciendis harum numquam libero aspernatur, expedita veniam tempore. Rem ducimus maxime possimus itaque quam error voluptas, facere! Officia labore dolorum voluptates voluptatibus hic quia animi, fugiat consectetur quo.</p>
+        </details>
+        <details class="details-info">
+          <summary>
+            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore minus inventore.
+          </summary>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa libero atque quibusdam asperiores excepturi enim at voluptatem velit ipsam veritatis consequuntur, nam voluptas, quod dolorem molestias voluptates omnis tempore voluptatibus. Beatae sit reiciendis harum numquam libero aspernatur, expedita veniam tempore. Rem ducimus maxime possimus itaque quam error voluptas, facere! Officia labore dolorum voluptates voluptatibus hic quia animi, fugiat consectetur quo.</p>
+        </details>
       </div>
-    </article>
+    </section>
     
-    <article id="screenshots">
+    <section class="screenshots">
       <h2>Screenshots</h2>
       <div>
-        <div>
+        <figure>
           <img src="" alt="Screenshot" height="150" width="150">
-          <h3>The description for the image</h3>
-          <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-        </div>
-        <div>
+          <figcaption>
+            <h3>The description for the image</h3>
+            <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+          </figcaption>
+        </figure>
+        <figure>
           <img src="" alt="Screenshot" height="150" width="150">
-          <h3>The description for the image</h3>
-          <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-        </div>
+          <figcaption>
+            <h3>The description for the image</h3>
+            <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+          </figcaption>
+        </figure>
       </div>
       <div>
-        <div>
+        <figure>
           <img src="" alt="Screenshot" height="150" width="150">
-          <h3>The description for the image</h3>
-          <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-        </div>
-        <div>
+          <figcaption>
+            <h3>The description for the image</h3>
+            <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+          </figcaption>
+        </figure>
+        <figure>
           <img src="" alt="Screenshot" height="150" width="150">
-          <h3>The description for the image</h3>
-          <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-        </div>
+          <figcaption>
+            <h3>The description for the image</h3>
+            <p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+          </figcaption>
+        </figure>
       </div>      
-    </article>
+    </section>
     
-    <article id="reviews">
+    <section class="reviews">
      <h2>Reviews</h2>
       <div>
         <div>
@@ -111,9 +137,9 @@
           <p>Lourens S.</p>
         </div>
       </div>
-    </article>
+    </section>
     
-    <article id="buy">
+    <article class="buy">
       <h2>Buy it now</h2>
       <div>
         <p>Standart</p>
