@@ -25,8 +25,9 @@ body {
 .main-header-title {
   font-size: 60px;
   font-weight: 400;
+  line-height: 45px;
   text-align: left;
-  margin: 0;
+  margin: 0 0 45px 0;
 }
 
 .main-header-list {
@@ -35,7 +36,17 @@ body {
   line-height: 36px;
   text-align: left;
   margin: 0;
+  padding: 0;
+  list-style: none;
   }
+
+.main-header-list-item {
+  background-image: url(../img/tick.png);
+  background-size: 25px 19px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-left: 36px;
+}
 
 .main-header-product-photo {
   display: block;
@@ -78,7 +89,7 @@ body {
   float: right;
 }
 
-.details {
+.pluses {
   font-size: 0;
   width: 100%;
   padding: 50px;
@@ -88,7 +99,7 @@ body {
   background-color: #f5f5f5;
 }
 
-.details-title {
+.pluses-title {
   color: #445161;
   font-size: 30px;
   font-weight: 400;
@@ -97,7 +108,7 @@ body {
   margin: 0;
 }
 
-.details-column-left {
+.pluses-column-left {
   display: inline-block;
   width: 50%;
   font-size: 16px;
@@ -105,7 +116,7 @@ body {
   line-height: 24px;
 }
 
-.details-column-write {
+.pluses-column-write {
   display: inline-block;
   width: 50%;
   font-size: 16px;
