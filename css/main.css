@@ -150,3 +150,40 @@ body {
   vertical-align: top;
 }
 
+.screenshots {
+  width: 100%;
+  padding: 50px;
+  font-family: Arial;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  font-size: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.screenshots-title {
+  display: block;
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0 0 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.screenshot-list-wrapper {
+  display: inline-block;
+  width: 50%;
+}
+
+.screenshot-image {
+  display: block;
+  background-color: #445161;
+  width: 200px;
+  height: 150px;
+}
+
+.screenshot-description {
+  font-size: 24px;
+  font-weight: 400;
+}
+
