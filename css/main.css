@@ -27,7 +27,7 @@ body {
   font-weight: 400;
   line-height: 45px;
   text-align: left;
-  margin: 0 0 45px 0;
+  margin: 0 0 45px;
 }
 
 .main-header-list {
@@ -78,7 +78,8 @@ body {
   color: #445161;
   font-size: 30px;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 34px;
+  margin: 0 0 30px;
 }
 
 .about-video {
@@ -90,36 +91,35 @@ body {
 }
 
 .pluses {
-  font-size: 0;
   width: 100%;
-  padding: 50px;
+  padding: 50px 50px 15px;
   font-family: Arial;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
   background-color: #f5f5f5;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .pluses-title {
+  display: block;
   color: #445161;
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
   text-align: center;
-  margin: 0;
+  margin: 0 0 30px 0;
+  width: 100%;
 }
 
-.pluses-column-left {
-  display: inline-block;
+.pluses-list-wrapper {
   width: 50%;
+}
+
+.pluses-list-item {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  margin: 0 0 35px;
 }
 
-.pluses-column-write {
-  display: inline-block;
-  width: 50%;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-}
