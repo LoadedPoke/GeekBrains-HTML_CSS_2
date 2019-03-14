@@ -123,3 +123,30 @@ body {
   margin: 0 0 35px;
 }
 
+.pluses-list-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.pluses-list-item, summary {
+  display: block;
+}
+
+.pluses-list-item-plus-sign {
+  width: 32px;
+  height: 32px;
+  background-color: #445161;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  line-height: 32px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px 5px 0 0;
+}
+
+.pluses-list-item-summary {
+  display: inline-block;
+  width: 90%;
+  vertical-align: top;
+}
+
