@@ -158,6 +158,9 @@ body {
   font-size: 0;
   box-sizing: border-box;
   background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .screenshots-title {
@@ -171,8 +174,10 @@ body {
 }
 
 .screenshot-list-wrapper {
-  display: inline-block;
-  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  width: 574px;
+  margin: 0 0 30px 0;
 }
 
 .screenshot-image {
@@ -182,8 +187,24 @@ body {
   height: 150px;
 }
 
-.screenshot-description {
-  font-size: 24px;
-  font-weight: 400;
+.screenshots-description-wrapper {
+  width: 359px;
 }
 
+.screenshot-description-title {
+  display: block;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0 0 15px 0;
+}
+
+.screenshot-description-text {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color:  #333333;
+  text-align: justify;
+}
