@@ -123,6 +123,10 @@ body {
   margin: 0 0 35px;
 }
 
+.pluses-list-item summary {
+  outline: none;
+}
+
 .pluses-list-item summary::-webkit-details-marker {
   display: none;
 }
@@ -155,7 +159,6 @@ body {
   padding: 50px;
   font-family: Arial;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
-  font-size: 0;
   box-sizing: border-box;
   background-color: #fff;
   display: flex;
