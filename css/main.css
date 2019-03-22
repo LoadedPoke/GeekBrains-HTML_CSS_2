@@ -123,35 +123,40 @@ body {
   margin: 0 0 35px;
 }
 
-.pluses-list-item summary {
-  outline: none;
-}
-
 .pluses-list-item summary::-webkit-details-marker {
   display: none;
 }
 
-.pluses-list-item, summary {
+.pluses-list-item summary {
   display: block;
+  outline: none;
 }
 
-.pluses-list-item-plus-sign {
-  width: 32px;
-  height: 32px;
-  background-color: #445161;
-  color: #fff;
+.pluses-list-item summary:before {
+  content: "+";
   font-size: 40px;
+  color: #fff;
+  background-color: #445161;
+  display: block;
+  width: 32px;
+  height: 32px; 
   text-align: center;
   line-height: 32px;
-  display: inline-block;
-  vertical-align: top;
-  margin: 5px 5px 0 0;
+  float: left;
+  margin: 5px 8px 0 0;
+}
+
+.pluses-list-item[open] summary:before {
+  content: "-";
+  line-height: 28px;
 }
 
 .pluses-list-item-summary {
-  display: inline-block;
-  width: 90%;
-  vertical-align: top;
+  padding-left: 40px;
+}
+
+.pluses-list-item-summary-text {
+  padding-left: 40px;
 }
 
 .screenshots {
