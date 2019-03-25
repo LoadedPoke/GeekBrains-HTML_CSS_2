@@ -502,3 +502,45 @@ textarea[placeholder] {
   color: #445162;
 }
 
+.main-footer-contacts-form {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+
+
+
+
+.main-footer-contacts-form-icons {
+  font-size: 0;
+  margin: 32px 0 0 0;
+}
+
+.main-footer-contacts-form-icons a {
+  color: #fff;
+  font-family: Socialico;
+  font-size: 60px;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+}
+
+.main-footer-contacts-form-icons a:hover {
+  color: gray;
+}
+
+.main-footer-contacts-form-icons a:active {
+  color: #fff;
+}
+
+.main-footer-copyright {
+  width: 100%;
+  background-color: #f5f5f5;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+}
